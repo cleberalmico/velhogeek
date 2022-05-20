@@ -12,7 +12,11 @@ body {
     background: linear-gradient(#000000, #434343);
 }
 
-.login-box {
+.aviso-box{
+    margin: 50px 0;
+}
+
+.options-box {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -25,7 +29,7 @@ body {
     border-radius: 10px;
 }
 
-.login-box h2{
+.options-box h2, .aviso-box h2{
     margin: 0 0 30px;
     padding: 0;
     color: #fff;
@@ -33,15 +37,11 @@ body {
     letter-spacing: 4px;
 }
 
-.login-box .user-box {
-    position: relative;
-}
-
-.login-box form{
+.options-box form{
     text-align: center;
 }
 
-.login-box form a { 
+.options-box form a { 
     position: relative;
     display: inline-block;
     padding: 10px 20px;
@@ -54,7 +54,7 @@ body {
     letter-spacing: 4px;
 }
 
-.login-box a:hover {
+.options-box a:hover {
     background: #ff0043;
     color: #fff;
     border-radius: 5px;
@@ -64,12 +64,12 @@ body {
                 0 0 100px #ff0043;
 }
 
-.login-box a span {
+.options-box a span {
     position: absolute;
     display: block;
 }
 
-.login-box a span:nth-child(1) {
+.options-box a span:nth-child(1) {
     top: 0;
     left: -100%;
     width: 100%;
@@ -87,7 +87,7 @@ body {
     }
 }
 
-.login-box a span:nth-child(2) {
+.options-box a span:nth-child(2) {
     top: -100%;
     right: 0;
     width: 2px;
@@ -106,7 +106,7 @@ body {
     }
 }
 
-.login-box a span:nth-child(3) {
+.options-box a span:nth-child(3) {
     bottom: 0;
     right: -100%;
     width: 100%;
@@ -125,7 +125,7 @@ body {
     }
 }
 
-.login-box a span:nth-child(4) {
+.options-box a span:nth-child(4) {
     bottom: -100%;
     left: 0;
     width: 2px;
@@ -143,4 +143,3 @@ body {
         bottom: 100%;
     }
 }
-
