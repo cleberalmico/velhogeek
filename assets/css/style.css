@@ -75,7 +75,7 @@ header{
     position: relative;
     display: inline-block;
     padding: 10px 20px;
-    color: #ff0043;
+    color: #fcff9d;
     font-size: 16px;
     text-decoration: none;
     text-transform: uppercase;
@@ -85,13 +85,13 @@ header{
 }
 
 .options-box a:hover {
-    background: #ff0043;
+    background: #004e77;
     color: #fff;
     border-radius: 5px;
-    box-shadow: 0 0 5px #ff0043,
-                0 0 25px #ff0043,
-                0 0 50px #ff0043,
-                0 0 100px #ff0043;
+    box-shadow: 0 0 5px #004e77,
+                0 0 25px #004e77,
+                0 0 50px #004e77,
+                0 0 100px #004e77;
 }
 
 .options-box a span {
@@ -104,7 +104,7 @@ header{
     left: -100%;
     width: 100%;
     height: 2px;
-    background: linear-gradient(90deg, transparent, #ff0043);
+    background: linear-gradient(90deg, transparent, #004e77);
     animation: btn-anim1 2s linear infinite;
 }
 
@@ -122,7 +122,7 @@ header{
     right: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(180deg, transparent, #ff0043);
+    background: linear-gradient(180deg, transparent, #004e77);
     animation: btn-anim2 2s linear infinite;
     animation-delay: .5s;
 }
@@ -141,7 +141,7 @@ header{
     right: -100%;
     width: 100%;
     height: 2px;
-    background: linear-gradient(270deg, transparent, #ff0043);
+    background: linear-gradient(270deg, transparent, #004e77);
     animation: btn-anim3 2s linear infinite;
     animation-delay: 1s;
 }
@@ -160,7 +160,7 @@ header{
     left: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(180deg, transparent, #ff0043);
+    background: linear-gradient(180deg, transparent, #004e77);
     animation: btn-anim4 2s linear infinite;
     animation-delay: 1.5s;
 }
